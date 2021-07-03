@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imgs/logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+    </style>
+    <title>Age Calculator</title>
+</head>
+
+<body>
+    <div class="age-calculator text-center py-3">
+        <div class="container">
+            <h1>Age Calculator</h1>
+
+            <div class="img">
+                <img src="imgs/img1.png" width="350" height="320" />
+            </div>
+
+            <div class="select-container w-50 m-auto">
+                <div class="row">
+                    <div class="col-4">
+                        <div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <label class="input-group-text" for="selectY">Year</label>
+                                </div>
+                                <select id="selectY" class="custom-select">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <label class="input-group-text" for="selectM">Month</label>
+                                </div>
+                                <select id="selectM" class="custom-select">
+                                    <option value="1" selected>Jan</option>
+                                    <option value="2">Feb</option>
+                                    <option value="3">Mar</option>
+                                    <option value="4">Apr</option>
+                                    <option value="5">May</option>
+                                    <option value="6">Jun</option>
+                                    <option value="7">Jul</option>
+                                    <option value="8">Aug</option>
+                                    <option value="9">Sep</option>
+                                    <option value="10">Oct</option>
+                                    <option value="11">Nov</option>
+                                    <option value="12">Dec</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-4">
+                        <div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <label class="input-group-text" fot="selectD">Day</label>
+                                </div>
+                                <select id="selectD" class="custom-select">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <button id="calculate" class="btn">Calculate Age</button>
+            <h3 id="printAge"></h3>
+
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+body {font-family: 'Nunito', sans-serif;}
+
+h3,h1 {color: #34325E;}
+
+.btn {
+    background-color: #F50057;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.btn:hover {color: #fff;}
+
+.age {
+    color: #F50057;
+    font-size: 30px;
+}
+
+/* Responsive */
+@media (max-width: 769px) {
+    .select-container {width: 100% !important;}
+}
